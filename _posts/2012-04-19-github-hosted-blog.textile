@@ -1,0 +1,4 @@
+h2. Indeed, what is this?
+
+I decided to use Jekyll instead of something more fancy since I can
+control what goes on here better. 
