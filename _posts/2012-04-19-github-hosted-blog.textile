@@ -1,4 +1,13 @@
+---
+layout: post
+title: "Why another blog?"
+description: "I needed to get writing without dealing with the 'I wish it did this...' aspect"
+category: General 
+tags: []
+---
+
+{% include JB/setup %}
+
 h2. Indeed, what is this?
 
-I decided to use Jekyll instead of something more fancy since I can
-control what goes on here better. 
+I decided to use Jekyll instead of something more fancy since I can control what goes on here better. 
