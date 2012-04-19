@@ -8,6 +8,8 @@ tags: []
 
 {% include JB/setup %}
 
-h2. Indeed, what is this?
+I can't find the perfect set up without having to roll my own. I want to combine twitter, tumblr, read it later, google reader, and a few other web apps along with original content I can type in the blog itself.
 
-I decided to use Jekyll instead of something more fancy since I can control what goes on here better. 
+So far I haven't found one system that is this awesome. I've played with Jekyll a while a go and it had a lot of promise. I don't really need a "dynamic" site as a lot of data I'm interested in displaying comes off site. 
+
+I'm going to give this a whirl and see if I can bend it to do what I want.
