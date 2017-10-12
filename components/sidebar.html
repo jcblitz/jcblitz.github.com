@@ -1,0 +1,16 @@
+<div ng-click="sidebarOpened = false;" class="sidebar-overlay" ng-class="{'sidebar-overlay-show': sidebarOpened}"></div>
+<div class="sidebar" ng-class="{'sidebar-show': sidebarOpened}">
+  <div class="sidebar-header">
+    <a href="javascript:void(0)" ng-click="sidebarOpened = false;" aria-label="Close settings sidebar">
+      <i class="fa fa-times"></i>
+    </a>
+  </div>
+  <div class="sidebar-body">
+    <button class="normal-button import-btn" ng-attr-data-clipboard-text="{{importExportService.getBoardPureText(board, messages, sortField)}}"><i class="fa fa-clipboard"></i>Copy board to clipboard</button>
+    <button class="normal-button" ng-click="importExportService.generatePdf(board, messages, sortField)"><i class="fa fa-download"></i>Export board to PDF</button>
+    <button class="normal-button" ng-click="modalService.openImportBoard(this)"><i class="fa fa-upload"></i>Import CSV</button>
+    <button class="normal-button" ng-click="modalService.openVoteSettings(this)"><i class="fa fa-thumbs-up"></i>Vote settings</button>
+    <button class="delete-button" ng-click="modalService.openDeleteCards(this)"><i class="fa fa-trash"></i>Delete cards</button>
+    <button class="delete-button" ng-click="modalService.openDeleteBoard(this)"><i class="fa fa-trash"></i>Delete board</button>
+  </div>
+</div>
